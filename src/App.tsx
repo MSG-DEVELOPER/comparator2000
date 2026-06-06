@@ -3,11 +3,14 @@
 import './App.css'
 
 function App() {
-  
+  function handleOnClick(){
+    alert("diste click")
+  }
 
   return (
     <>
-     hola mundo
+    
+     <button onClick={handleOnClick}>fetch</button>
     </>
   )
 }
